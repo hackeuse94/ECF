@@ -1,0 +1,15 @@
+@import url(header.css);
+@import url(hero.css);
+@import url(s1.css);
+@import url(s2.css);
+@import url(s3.css);
+@import url(s4.css);
+@import url(s5.css);
+@import url(s6.css);
+@import url(footer.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
