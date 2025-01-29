@@ -1,0 +1,53 @@
+/* Faire une div pour margin 2vw header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.3vw;
+    background-color: var(--header_vert);
+}
+
+.retour-accueil {
+    display: flex;
+    align-items: center;
+}
+
+.retour-accueil span {
+    font-size: var(--font-size_21);
+    font-weight: 600;
+    color: var(--blanc);
+    margin-left: 10px;
+}
+
+.nav_liens {
+    display: flex;
+    gap: 3vw; 
+}
+
+.nav_liens li a {
+    color: var(--blanc);
+    font-size: var(--font-size_15);
+    font-weight: 500;
+}
+
+.nav div {
+    margin-top: 1vw;
+}
+
+.button_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button_rouge);
+    font-size: var(--font-size_17);
+    width: 167px;
+    height: 45px;
+    border-radius: 6px;
+}
+
+.button_header img {
+    max-width: 20px;
+    max-height: 20px;
+}

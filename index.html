@@ -1,12 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css/global.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/svg" href="img/logo_icones/Logo_blanc.svg">
+    <title>Quatre Pattes</title>
 </head>
+
 <body>
+    <header class="header"> 
+        <a href="#" class="retour-accueil" aria-label="Retour à la page d'accueil"> 
+          <img src="img/logo_icones/Logo_blanc.svg" alt="Logo de Quatre Pattes" aria-label="Logo de Quatre Pattes" />
+          <span>Quattre Pattes</span>
+        </a> 
+        <nav class="nav"> 
+          <ul class="nav_liens"> 
+            <li><a href="#" aria-label="Lien vers : Accueil" >Accueil</a></li> 
+            <li><a href="#" aria-label="Lien vers : Contact">Contact</a></li> 
+            <li><a  class="button_header" href="#" aria-label="Lien vers : Faire un don, icone coeur"><img src="img/logo_icones/icone_coeur_blanc.svg" alt="icone coeur" aria-label="icone coeur">Faire un don </a></li> 
+          </ul> 
+        </nav> 
+    </header> 
+
+    <main>
+        <section id="hero"> 
+            <div class="titre_hero">
+                <h1>Protégeons-les Ensemble</h1> 
+                <span>
+                    Chaque don  compte pour leur offrir une vie meilleure
+                </span>
+            </div>
+        </section>
+
+        <h2>Faites un don</h2>
+
+        <section id="s1">
+            <div class="border_grey">
+                <span>10€</span>
+                <p>permet de nourrir 5 animaux 
+                    <br>
+                        pendant une journée</p>
+            </div>
+
+            <div class="border_grey">
+                <span>20€</span>
+                <p>permet d’héberger un animal 
+                    <br>
+                    sauvage pendant une nui</p>
+            </div>
+
+            <div class="border_vert">
+                <span>50€</span>
+                <p>permet de financer les soins
+                    <br>
+                    vétérinaires complets pour un 
+                    <br>
+                    animal</p>
+            </div>
+
+            <br>
+            <div class="block">
+            <button>Une fois</button>
+            <button>Mensuel</button>
+            <button>Annuel</button>
+            </div>
+        </section>
 
 <script src="style.css/script.js"></script>
 </body>
