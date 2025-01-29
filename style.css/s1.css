@@ -1,49 +1,69 @@
-#s1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5vw;
-    padding: 1.8vw;
-}
-
 #s1 span {
     font-size: var(--font-size_25); 
-    font-weight: 800;
+    font-weight: 900; 
 }
 
-#s1 p {
-    font-size: var(--font-size_15);
+.conteneur_shadow {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 980px;
+    height: 383px;
+    gap: 1.5vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     padding: 1.8vw;
+/* margin: 0 auto : centre horizontalement */
+    margin: 0 auto;  
 }
 
-.border_grey{
+.border_grey {
     width: 279px;
     height: 138px;
-    border: solid 2px rgba(228, 228, 230, 100);
     text-align: center;
     line-height: 22px;
+    padding-top: 1.8vw;
 }
 
-.border_grey span {
-    display: flex;
-    justify-content: center;
-    margin-top: 2vw;
+.border_grey {
+    border: solid 2px rgba(228, 228, 230, 100);
 }
 
-.border_vert {
+.border_grey:hover {
+    cursor: pointer;
     background-color: var(--background_vert);
     border: 2px solid var(--border_vert_button);
-    text-align: center;
 }
 
-
-.border_vert span {
-    font-size: var(--font-size_25); 
-    font-weight: 800;
+.button_conteneur {
+    width:100%;
     display: flex;
     justify-content: center;
-    margin-top: 3vw;
+    gap: 1vw;
 }
 
-/*  Boutons */
+.button_size {
+    width: 105px;
+    height: 45px;
+    font-weight: 600;
+    font-size: var(--font-size_17);
+    border-radius: 10px;
+}
 
+.dimension_grand_button {
+    width: 90%;
+    color: var(--blanc);
+    text-align: center;
+    font-weight: 700;
+}
+
+.dimension_grand_button:hover {
+    background-color: var(--border_vert_button);
+}
+
+
+
+.button_size:hover {
+    cursor: pointer;
+    color: var(--blanc);
+    background-color: var(--border_vert_button);
+}

@@ -1,10 +1,8 @@
-/* Faire une div pour margin 2vw header */
+/* Aligner lien avec button header*/
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
     padding: 1.3vw;
     background-color: var(--header_vert);
 }
@@ -21,6 +19,10 @@
     margin-left: 10px;
 }
 
+.retour-accueil span:hover {
+    color: var(--button_rouge);
+}
+
 .nav_liens {
     display: flex;
     gap: 3vw; 
@@ -30,10 +32,6 @@
     color: var(--blanc);
     font-size: var(--font-size_15);
     font-weight: 500;
-}
-
-.nav div {
-    margin-top: 1vw;
 }
 
 .button_header {
@@ -47,7 +45,20 @@
     border-radius: 6px;
 }
 
+.button_header:hover {
+    background-color: var(--border_vert_button);
+}
+
+
 .button_header img {
     max-width: 20px;
     max-height: 20px;
+}
+
+.bricolage {
+    padding-top: 1vw;
+}
+
+.bricolage:hover {
+    color: var(--button_rouge);
 }

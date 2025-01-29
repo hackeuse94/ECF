@@ -1,0 +1,65 @@
+#s3 {
+    padding-left: 10%;
+    margin-bottom: 10vw;
+}
+
+.div_image_principal {
+    position: relative; 
+}
+
+.div_image_principal img {
+    width: 90%; 
+}
+
+.nom_gros {
+    position: absolute;
+    color: var(--blanc);
+    font-size: var(--font-size_30);
+    z-index: 10;
+    /* Bricolage */
+    bottom: 12vw;
+    left: 3.2vw;
+}
+
+.description {
+    position: absolute;
+    color: var(--blanc);
+    font-size: var(--font-size_18);
+    letter-spacing: 2%;
+    line-height: 30px;
+    z-index: 10;
+    /* Bricolage */
+    bottom: 7vw;
+    left: 3vw;
+}
+
+.date {
+    position: absolute;
+    font-size: var(--font-size_14);
+    color: var(--blanc);
+    z-index: 10;
+    /* Bricolage.. */
+    bottom: 5vw;
+    left: 3vw;
+}
+
+/* Miniatures */
+.img-miniatures {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    /* Bricolage.. */
+    padding-right: 8%;
+}
+
+.nom {
+    position: absolute; 
+    font-size: var(--font-size_21);
+    color: var(--blanc);
+    font-weight: bold;
+    z-index: 10;
+    /* Bricolage.. */
+    bottom: 4vw;
+    padding-left: 10vw;
+}

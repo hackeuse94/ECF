@@ -9,8 +9,8 @@
 @import url(footer.css);
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -22,10 +22,10 @@
     --button_gris: #f3f4f6;
     --border_grise: #edfef6;
     --border_vert_button: #0cb981;
-    --background_vert: #e2fcef;
+    --background_vert: #edfef6;
     --blanc: #fff;
     --footer: #414955;
-  
+
     --font-size_60: 60px;
     --font-size_30: 30px; 
     --font-size_25: 25px; 
@@ -47,7 +47,11 @@ h1 {
     color: var(--blanc);
 }
 
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6{
     font-size: var(--font-size_30);
     font-weight: 800;
     text-align: center;
@@ -57,11 +61,15 @@ h2 {
 a {
     text-decoration: none;  
 }
-  
+
 a:hover {  
     cursor: pointer;
 }
 
 li {
     list-style: none;
+}
+
+button {
+    border: none;
 }

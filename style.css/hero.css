@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-image: url(../img/img/hero.png);
-    width: 100%;
     height: 556px;
     background-size: cover;
     background-position-x: center;
@@ -14,3 +14,4 @@
     font-weight: 500;
     color: var(--blanc);
 }
+

@@ -1,0 +1,33 @@
+#s5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background_vert);
+    width: 100%;
+    padding-bottom: 7vw;
+}
+
+#s5 img {
+    max-width: 50px;
+    max-height: 50px;
+    /* Bricolage */
+    padding-left: 2vw;
+}
+
+.vert{
+    background-color: var(--background_vert);
+    padding-right: 2vw;
+}
+
+.size_s5 {
+    font-size: var(--font-size_21);
+    font-weight: bold;
+}
+
+.size_text_s5{
+    font-size: var(--font-size_17);
+}
+
+#s5 li {
+    text-align: center;
+}

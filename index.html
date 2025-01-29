@@ -1,75 +1,321 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css/global.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg" href="img/logo_icones/Logo_blanc.svg">
     <title>Quatre Pattes</title>
+    
+    <link rel="icon" type="image/svg" href="img/logo_icones/Logo_blanc.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css/global.css">
 </head>
 
 <body>
+
+<!-- HEADER -->
+
     <header class="header"> 
-        <a href="#" class="retour-accueil" aria-label="Retour à la page d'accueil"> 
-          <img src="img/logo_icones/Logo_blanc.svg" alt="Logo de Quatre Pattes" aria-label="Logo de Quatre Pattes" />
-          <span>Quattre Pattes</span>
+        <a href="#" class="retour-accueil"> 
+          <img src="img/logo_icones/Logo_blanc.svg" alt="Logo de Quatre Pattes">
+          <span>Quatre Pattes</span>
         </a> 
         <nav class="nav"> 
           <ul class="nav_liens"> 
-            <li><a href="#" aria-label="Lien vers : Accueil" >Accueil</a></li> 
-            <li><a href="#" aria-label="Lien vers : Contact">Contact</a></li> 
-            <li><a  class="button_header" href="#" aria-label="Lien vers : Faire un don, icone coeur"><img src="img/logo_icones/icone_coeur_blanc.svg" alt="icone coeur" aria-label="icone coeur">Faire un don </a></li> 
+            <li class="bricolage"><a class="bricolage" href="#" aria-label="Lien vers la page d'accueil">Accueil</a></li> 
+            <li class="bricolage"><a class="bricolage" href="#" aria-label="Lien vers la page Contact">Contact</a></li> 
+            <li><a class="button_header" href="#" aria-label="Lien vers la page : Faire un don.">
+                <img src="img/logo_icones/icone_coeur_blanc.svg" alt="Icône cœur"> Faire un don
+            </a></li> 
           </ul> 
         </nav> 
     </header> 
+
+<!-- HERO -->
 
     <main>
         <section id="hero"> 
             <div class="titre_hero">
                 <h1>Protégeons-les Ensemble</h1> 
-                <span>
-                    Chaque don  compte pour leur offrir une vie meilleure
-                </span>
+                <span>Chaque don compte pour leur offrir une vie meilleure</span>
             </div>
         </section>
 
         <h2>Faites un don</h2>
 
+<!-- SECTION 1 -->
+
         <section id="s1">
-            <div class="border_grey">
-                <span>10€</span>
-                <p>permet de nourrir 5 animaux 
-                    <br>
-                        pendant une journée</p>
-            </div>
+            <div class="conteneur_shadow">
+                <div class="border_grey">
+                    <span>10€</span>
+                    <p>Permet de nourrir 5 animaux <br>pendant une journée</p>
+                </div>
 
-            <div class="border_grey">
-                <span>20€</span>
-                <p>permet d’héberger un animal 
-                    <br>
-                    sauvage pendant une nui</p>
-            </div>
+                <div class="border_grey">
+                    <span>20€</span>
+                    <p>Permet d’héberger un animal <br>sauvage pendant une nuit</p>
+                </div>
 
-            <div class="border_vert">
-                <span>50€</span>
-                <p>permet de financer les soins
-                    <br>
-                    vétérinaires complets pour un 
-                    <br>
-                    animal</p>
-            </div>
+                <div class="border_grey">
+                    <span>50€</span>
+                    <p>Permet de financer les soins <br>vétérinaires complets pour un animal</p>
+                </div>
 
-            <br>
-            <div class="block">
-            <button>Une fois</button>
-            <button>Mensuel</button>
-            <button>Annuel</button>
+                <div class="button_conteneur">
+                    <button class="button_size">Une fois</button>
+                    <button class="button_size">Mensuel</button>
+                    <button class="button_size">Annuel</button>
+                </div>
+
+                <button class="button_header dimension_grand_button">Faire un don de 50€/mois</button>
             </div>
         </section>
 
-<script src="style.css/script.js"></script>
+<!-- SECTION 2 -->
+
+        <section id="s2">
+            <div class="div_principal_s2">
+                <img src="img/img/s2.webp"  alt="bébé chien heureux qui cours sur le l'herbe" loading="lazy">
+                <div>
+                <h3 class="left">Notre Mission</h3>
+                <p>Depuis 2010, Quatre Pattes œuvre sans relâche pour la protection et le 
+                   bien-être des animaux en France. Notre mission est double : secourir les animaux
+                   en détresse et sensibiliser le public à la cause animale.
+                </p>
+                <br>
+                <p>
+                    Chaque année, nous prenons en charge plus de 1000 animaux 
+                    abandonnés, maltraités ou blessés. Grâce à notre réseau de familles
+                    d’accueil et nos partenariats avec des refuges, nous leur offrons une 
+                    seconde chance. 
+                </p>
+                <br>
+                <p>
+                    Votre soutien est essentiel pour continuer notre mission. Ensemble, nous
+                    pouvons faire la différence pour ces êtres qui comptent sur nous.
+                </p>
+                </div>
+            </div>
+        </section>
+
+<!-- SECTION 3 -->
+
+        <section id="s3">
+            <h3>Histoires de Réussite</h3>
+            <div class="contenair_image_principal">
+                <div class="div_image_principal">
+                    <img src="img/img/s3_principal.png" alt="Photo de luna qui mord dans son jouet" loading="lazy">
+                    <p class="nom_gros">Luna</p>
+                    <p class="description">Trouvée dans la rue avec une patte cassée, Luna a été soignée et a retrouvé sa joie de vivre. Elle coule maintenant des jours 
+                        <br> 
+                        heureux dans sa nouvelle famille.</p>
+                    <p class="date">Janvier 2024</p>
+                </div>
+            </div>
+        
+            <div class="img-miniatures">
+                <div class="div_image_principal">
+                    <img src="img/img/s3_principal_miniature.png" alt="Photo miniature de luna qui mord dans son jouet" loading="lazy">
+                    <p class="nom">Luna</p>
+                </div>
+                <div class="div_image_principal">
+                    <img src="img/img/s3_chat.png" alt="Photo de oscar, chat noir et blancn poil long avec un papillon sur le bout du museau" loading="lazy">
+                    <p class="nom">Oscar</p>
+                </div>
+                <div class="div_image_principal">
+                    <img src="img/img/s3_bulldog.png" alt="Photo de max, bulldog français assis qui porte un tee-shirt orange" loading="lazy">
+                    <p class="nom">Max</p>
+                </div>
+            </div>
+        </section>
+        
+<!-- SECTION 4 -->
+
+<!-- QUIZZ -->
+
+<section id="s4">
+    <h4>Testez Vos Connaissances</h4>
+
+    <div class="contenaire_questions">
+
+    <p class="quizz">Les associations gardent la majorité des dons pour leurs fonctionnements</p>
+
+    <div class="question-reponse"> 
+
+    <div class="question">
+    <p>Vrai, les associations utilisent plus de 50% des dons pour leurs frais de fonctionnement</p>
+    </div>
+    
+    <div class="reponse">
+    <p>Faux</p>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="contenaire_questions_Un">
+    <p class="quizz">Les refuges ne prennent que des animaux en bonne santé</p>
+
+    <div class="question-reponse"> 
+
+    <div class="question">
+    <p>Vrai, ils refusent les animaux malades car c’est 
+        trop coûteux</p>
+    </div>
+    
+    <div class="reponse">
+    <p>Faux</p>
+    </div>
+    </div>
+    </div>
+
+
+    <div  class="contenaire_questions_Deux">
+    <p class="quizz">Les associations ont trop de moyens grâce aux dons</p>
+
+    <div class="question-reponse"> 
+
+    <div class="question">
+    <p>Vrai, elles reçoivent beaucoup d’argent des donateurs</p>
+    </div>
+    
+    <div class="reponse">
+    <p>Faux</p>
+    </div>
+    </div>
+    </div>
+
+    
+    </div>
+</section>
+
+<!-- SECTION 5 -->
+
+<h5 class="vert">Notre Impact</h5>
+
+
+<section id="s5">
+<ul>
+    <li>
+        <img src="img/logo_icones/icone-maison_vert.webp" alt="icone vert repas : fourchette, couteaux.">
+    </li>
+    <li class="size_s5">
+        50+ Refuges
+    </li>
+    <br>
+    <li>
+        Partenaires à travers la France
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <img src="img/logo_icones/icone_logo_vert.webp" alt="icone maison de couleur verte.">
+    </li>
+    <li class="size_s5">
+        1000+ Animaux
+    </li>
+    <br>
+    <li>
+        Sauvés chaque année
+    </li>
+</ul>
+
+<ul>
+    <li>
+        <img src="img/logo_icones/icone_repas_vert.webp" alt="icone vert logo Quatre Pattes">
+    </li>
+    <li class="size_s5">
+        10 000+ Repas
+    </li>
+    <br>
+    <li>
+        Distribués par mois
+    </li>
+</ul>
+
+</section>
+
+<!-- SECTION 6 -->
+
+<h6>Notre impact</h6>
+
+<section id="s6">
+        <ul class="liste_article">
+            <li>
+                <article class="s6_article"> 
+                    <img src="img/img/s6_chat_chien.webp" alt="un chat et un chien qui ce câline sur de l'herbe"  loading="lazy"/> 
+                    <div> 
+                        <p>
+                            “Grâce aux dons, nous avons pu accueillir plus de 200 animaux cette année et leur offrir une seconde chance.”
+                        </p> 
+                        <span class="bold">
+                            Refuge des Quatre Pattes - Lion 
+                        </span>
+                    </div> 
+                </article> 
+            </li>
+
+            <li>
+                <article class="s6_article">
+                    <img src="img/img/s6_chat.webp" alt="Chat noir et blanc" loading="lazy"/> 
+                    <div> 
+                        <p> 
+                            “Le soutien de Quatre Pattes nous permet de maintenir notre mission de protection des animaux sauvages en détresse.”
+                        </p> 
+                        <span class="bold">
+                            Sanctuaire Animal - Marseille
+                        </span>
+                    </div> 
+                </article>
+            </li> 
+
+            <li>
+                <article class="s6_article"> 
+                    <img src="img/img/s6_pate_chat.webp" alt="Chat qui pose sa patte sur une main" loading="lazy" /> 
+                    <div>
+                        <p>
+                            “Chaque don compte et nous aide à offrir un
+                            avenir meilleur aux animaux abandonnées.” 
+                        </p> 
+                        <span class="bold">
+                            Refuge du Soleil - Paris  
+                        </span>
+                    </div>
+                </article> 
+            </li>
+        </ul>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li class="bold">
+                Quatre pattes
+            </li>
+            <li>
+                Ensemble, Protégeons les animaux et donnons-leurs
+                <br>
+                une vie meilleure.
+            </li>
+        </ul>
+        <ul>
+            <li class="bold">
+                Contact
+            </li>
+            <li>
+                <img src="img/logo_icones/icone_envoyer_blanc.webp" alt="icone enveloppe accompagnant la mail de Quatre Pattes">
+                <a href="#">contact@quatrepattes.org</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="bold">
+                Suivez-nous
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
