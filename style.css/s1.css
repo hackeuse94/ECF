@@ -30,8 +30,13 @@
 
 .border_grey:hover {
     cursor: pointer;
-    background-color: var(--background_vert);
     border: 2px solid var(--border_vert_button);
+}
+
+.border_grey:focus {
+    border: 2px solid var(--border_vert_button);
+    background-color: rgba(114, 149, 61, 0.266);
+    cursor: pointer;
 }
 
 .button_conteneur {
@@ -49,6 +54,17 @@
     border-radius: 10px;
 }
 
+.button_size:hover {
+    cursor: pointer;
+    color: var(--blanc);
+    background-color: var(--border_vert_button);
+}
+
+.button_size:focus {
+    background-color: var(--border_vert_button);
+    cursor: pointer;
+}
+
 .dimension_grand_button {
     width: 90%;
     color: var(--blanc);
@@ -56,14 +72,8 @@
     font-weight: 700;
 }
 
-.dimension_grand_button:hover {
+.dimension_grand_button:focus {
     background-color: var(--border_vert_button);
-}
-
-
-
-.button_size:hover {
     cursor: pointer;
-    color: var(--blanc);
-    background-color: var(--border_vert_button);
 }
+

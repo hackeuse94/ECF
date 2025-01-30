@@ -53,6 +53,11 @@
     padding-right: 8%;
 }
 
+.hover:focus {
+    border: 4px solid var(--border_vert_button);
+    border-radius: 20px;
+}
+
 .nom {
     position: absolute; 
     font-size: var(--font-size_21);

@@ -8,18 +8,15 @@
     gap: 2vw;
 }
 
-.contenaire_questions,
-.contenaire_questions_Un,
-.contenaire_questions_Deux {
+.contenaire_questions {
     background-color: var(--blanc);
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 961px;
-    height: auto;
     padding: 1vw;
-    gap: 1vw; 
+    gap: 1vw;
     border-radius: 10px;
 }
 
@@ -30,23 +27,34 @@
 }
 
 .question-reponse {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw; 
+    gap: 2vw;
     width: 100%;
 }
 
-.question,
-.reponse {
+.mauvaise_reponse, .bonne_reponse {
     cursor: pointer;
     font-size: var(--font-size_17);
     background-color: var(--button_gris);
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 444px;
     height: 79px;
     padding: 1vw;
     border-radius: 9px;
+}
+.bonne_reponse {
+    width: 50%; 
+}
 
+.bonne_reponse.active {
+    background-color: rgba(0, 128, 0, 0.212); 
+    display: inline;
+}
+
+.mauvaise_reponse.active {
+    background-color: rgba(255, 0, 0, 0.218);
 }
