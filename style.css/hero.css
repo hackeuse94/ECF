@@ -15,3 +15,24 @@
     color: var(--blanc);
 }
 
+/* Media Queries HERO */
+
+@media (max-width: 800px) {
+
+    #hero {
+        height: 400px; 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .titre_hero h1 {
+        font-size: var(--font-size_30);
+        line-height: 8vw;
+    }
+
+    .titre_hero span {
+        font-size: var(--font-size_20); 
+        letter-spacing: 3px;
+    }
+    
+}

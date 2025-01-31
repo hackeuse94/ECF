@@ -39,3 +39,41 @@
     padding-right: 3vw;
 }
 
+/* Media Queries */
+
+@media (max-width: 800px) {
+
+    #s2 .div_principal_s2 {
+        display: block; 
+        width: 100%; 
+        height: 100%; 
+        padding: 10px;
+    }
+
+    #s2 .div_principal_s2 img {
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover;
+        margin-bottom: 15px; 
+        border-top-left-radius: 20px; 
+        border-top-right-radius: 20px; 
+        border-bottom-left-radius: 0;
+    }
+
+    #s2 .div_principal_s2 div {
+        width: 100%; 
+    }
+
+    #s2 .div_principal_s2 h3 {
+        font-size: var(--font-size_21); 
+        padding: 2vw;
+    }
+
+    #s2 .div_principal_s2 p {
+        /* Police augmenter pour respecter le rendu de la maquette figma */
+        font-size: var(--font-size_17); 
+        line-height: 1.6; 
+        padding: 1vw;
+    }
+    
+}

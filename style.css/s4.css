@@ -24,6 +24,7 @@
     width: 100%;
     font-size: var(--font-size_21);
     font-weight: 600;
+    padding-left: 2vw;
 }
 
 .question-reponse {
@@ -40,10 +41,9 @@
     background-color: var(--button_gris);
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 444px;
     height: 79px;
-    padding: 1vw;
+    padding: 2vw;
     border-radius: 9px;
 }
 .bonne_reponse {
@@ -57,4 +57,18 @@
 
 .mauvaise_reponse.active {
     background-color: rgba(255, 0, 0, 0.218);
+}
+
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:800px) {
+
+    #s4 {
+        max-width: 100%;
+    }
 }
