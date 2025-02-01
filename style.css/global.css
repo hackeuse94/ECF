@@ -49,6 +49,7 @@ h1 {
     font-size: var(--font-size_60);
     font-weight: 800;
     color: var(--blanc);
+    text-align: center;
 }
 
 h2,
