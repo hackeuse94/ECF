@@ -11,7 +11,6 @@
 
 .titre_hero span {
     font-size: var(--font-size_22);
-    font-weight: 500;
     color: var(--blanc);
 }
 
@@ -21,18 +20,21 @@
 
     #hero {
         height: 400px; 
+        width: 753px;
         background-size: cover;
         background-position: center;
     }
 
     .titre_hero h1 {
         font-size: var(--font-size_30);
-        line-height: 8vw;
+        width: 100%;
+        height: auto;
     }
 
     .titre_hero span {
-        font-size: var(--font-size_20); 
-        letter-spacing: 3px;
+        font-size: var(--font-size_21); 
+        width: 304px;
+        height: auto;    
     }
     
 }
