@@ -10,7 +10,6 @@
 #s5 img {
     max-width: 50px;
     max-height: 50px;
-    /* Bricolage */
     padding-left: 2vw;
 }
 
@@ -31,3 +30,35 @@
 #s5 li {
     text-align: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px) {
+
+    #s5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5vw;
+    }
+
+    #s5 img {
+        max-width: 80px;
+        max-height: 80px;
+}
+
+    .size_s5 {
+        font-size: var(--font-size_25); 
+        font-weight: 800;
+    }
+
+    #s5 li {
+       font-size: var(--font-size_17);
+    }
+
+    .padding {
+        padding-bottom: 5vw;
+    }
+}
+
