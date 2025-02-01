@@ -70,5 +70,23 @@
 
     #s4 {
         max-width: 100%;
+        gap: 2vw;
     }
+
+    .quizz {
+        font-weight: 700;
+        font-size: var(--font-size_28);
+    }
+
+    .contenaire_questions {
+        width: 90%;
+        padding: 2vw;
+
+    }
+
+    .mauvaise_reponse, .bonne_reponse {
+        width: 50%;
+        font-size: var(--font-size_16);
+    }
+    
 }
