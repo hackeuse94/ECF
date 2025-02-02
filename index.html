@@ -76,12 +76,12 @@
         
                 <!-- button -->
                 <div class="button_conteneur">
-                    <button class="button_size" id="Une_fois" tabindex="0">Une fois</button>
+                    <button class="button_size" id="Une fois" tabindex="0">Une fois</button>
                     <button class="button_size" id="Mensuel" tabindex="0">Mensuel</button>
                     <button class="button_size" id="Annuel" tabindex="0">Annuel</button>
                 </div>
         
-                <button class="button_header dimension_grand_button" id="Don" tabindex="0"><div id="montant">Faire un don de </div>/<div id="duree"></div>
+                <button class="button_header dimension_grand_button" id="Don" tabindex="0"><div id="montant"></div><div id="duree"></div>
                 </button>
             </div>
         </section>
@@ -152,51 +152,70 @@
 
         <section id="s4">
             <h4>Testez Vos Connaissances</h4>
-
+        
+            <!-- Première question -->
             <div class="contenaire_questions">
-                <p class="quizz">Les associations gardent la majorité des dons pour leurs fonctionnements</p>
+                <p class="quizz">Les associations gardent la majorité des dons pour leur fonctionnement</p>
                 <div class="question-reponse">
-                    <div class="mauvaise_reponse" id="r1">
+                    <div class="mauvaise_reponse" id="q1r1">
+                        <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp" alt="icone réponse non validé">
                         <p>Vrai, les associations utilisent plus de 50% des dons pour leurs frais de fonctionnement</p>
                     </div>
-                    <div class="bonne_reponse" id="r2">
-                        <p>Faux !</p>
-                    </div>
-                    <div class="hidden">Faux ! 85% des dons sont directement utilisés pour les animaux. Seuls 15% servent aux frais
-                        de fonctionnement essentiels.</div>
-                </div>
-            </div>
-
-            <div class="contenaire_questions">
-                <p class="quizz">Les refuges ne prennent que des animaux en bonne santé</p>
-                <div class="question-reponse">
-                    <div class="mauvaise_reponse" id="r3">
-                        <p>Vrai, ils refusent les animaux malades car c’est trop coûteux</p>
-                    </div>
-                    <div class="bonne_reponse" id="r4">
+                    <div class="bonne_reponse" id="q1r2">
                         <p>Faux !</p>
                     </div>
                     <div class="hidden">
-                        Faux ! Nous accueillons tous les animaux quel que soit leur état de santé. Chaque vie compte !
+                        <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp" alt="icone réponse validé">
+                        Faux ! Chez Quatre Pattes, 85% des dons sont directement utilisés pour les animaux. Seuls 15% servent aux frais de fonctionnement essentiels.
                     </div>
                 </div>
             </div>
-
+        
+            <!-- Deuxième question -->
+            <div class="contenaire_questions">
+                <p class="quizz">Les refuges ne prennent que les animaux en bonne santé</p>
+                <div class="question-reponse">
+                    <div class="mauvaise_reponse" id="q2r1">
+                        <p> 
+                            <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp" alt="icone réponse non validé">
+                            Vrai, ils refusent les animaux malades car c'est trop coûteux</p>
+                    </div>
+                    <div class="bonne_reponse" id="q2r2">
+                        <p>Faux !</p>
+                    </div>
+                    <div class="hidden">
+                        <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp" alt="icone réponse validé">
+                        Faux ! Nous accueillons tous les animaux, quel que soit leur état de santé. Chaque vie compte !
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Troisième question -->
             <div class="contenaire_questions">
                 <p class="quizz">Les associations ont trop de moyens grâce aux dons</p>
                 <div class="question-reponse">
-                    <div class="mauvaise_reponse" id="r5">
-                        <p>Vrai, elles reçoivent beaucoup d’argent des donateurs</p>
+                    <div class="mauvaise_reponse" id="q3r1">
+                        <p>
+                            <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp" alt="icone réponse non validé">
+                            Vrai, elles reçoivent beaucoup d'argent des donateurs</p>
                     </div>
-                    <div class="bonne_reponse" id="r6">
+                    <div class="bonne_reponse" id="q3r2">
                         <p>Faux !</p>
                     </div>
                     <div class="hidden">
-                      Faux ! Les besoins sont immenses et constants. Chaque don est précieux pour sauver les animaux.
+                        <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp" alt="icone réponse validé">
+                        Faux ! Les besoins sont immenses et constants. Chaque don est précieux pour sauver plus d'animaux.
                     </div>
                 </div>
             </div>
+        
+            <!-- Section Score -->
+            <div id="scoreSection">
+                <p id="scoreMessage">Votre score : <span id="score">0</span>/3</p>
+                <button id="recommencerQuiz">Recommencer le quiz</button>
+            </div>
         </section>
+        
 
         <!-- SECTION 5 -->
 

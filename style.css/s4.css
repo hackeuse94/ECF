@@ -35,7 +35,8 @@
     width: 100%;
 }
 
-.mauvaise_reponse, .bonne_reponse {
+.mauvaise_reponse, 
+.bonne_reponse {
     cursor: pointer;
     font-size: var(--font-size_17);
     background-color: var(--button_gris);
@@ -46,45 +47,74 @@
     padding: 2vw;
     border-radius: 9px;
 }
-.bonne_reponse {
-    width: 50%; 
+
+.mauvaise_reponse.active {
+    background-color: rgba(255, 0, 0, 0.2);
 }
 
 .bonne_reponse.active {
-    background-color: rgba(0, 128, 0, 0.212); 
-    display: inline;
+    background-color: rgba(0, 128, 0, 0.2);
 }
 
-.mauvaise_reponse.active {
-    background-color: rgba(255, 0, 0, 0.218);
+.icone_faux,
+.icone_vrai {
+    display: none;
+    max-width: 20px;
+    max-height: 20px;
 }
 
 .hidden {
-    visibility: hidden;
     display: none;
+    align-items: center;
+    width: 100%;
+    height: 79px;
+    font-size: var(--font-size_17);
+    border-radius: 9px;
+    padding: 2vw;
 }
+
+.hidden2 {
+    display: block;
+    font-size: var(--font-size_17);
+}
+
+#scoreSection {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+#scoreMessage {
+    font-size: var(--font-size_21);
+}
+
+#restartQuiz {
+    margin-top: 1vw;
+    padding: 0.5vw;
+    background-color: var(--button_gris);
+    cursor: pointer;
+}
+
 
 /* MEDIA QUERIES */
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
 
     #s4 {
-        max-width: 100%;
         gap: 2vw;
     }
 
     .quizz {
         font-weight: 700;
-        font-size: var(--font-size_28);
+        font-size: var(--font-size_22);
     }
 
     .contenaire_questions {
         width: 90%;
         padding: 2vw;
-
     }
 
-    .mauvaise_reponse, .bonne_reponse {
+    .mauvaise_reponse,
+    .bonne_reponse {
         width: 50%;
         font-size: var(--font-size_16);
     }
