@@ -1,35 +1,30 @@
 // Don --> section 1
 
-    let lemontantEstDe = document.getElementById("montant");
-    let sectionsDon = document.querySelectorAll(".border_grey");
-    let buttonsDuree = document.querySelectorAll(".button_conteneur .button_size");
+let lemontantEstDe = document.getElementById("montant");
+let sectionsDon = document.querySelectorAll(".border_grey");
+let buttonsDuree = document.querySelectorAll(".button_conteneur .button_size");
 
-    sectionsDon.forEach(function(section) {
-        section.addEventListener("click", function() { // Execute le code lorsque l'ont click sur un élément de border grey
-
-            let montant = section.querySelector("span").textContent;
-
-            lemontantEstDe.textContent = "Faire un don de " + montant;
-
-        });
+sectionsDon.forEach(function(section) {
+    section.addEventListener("click", function() { // Execute le code lorsque l'on clique sur un élément de border grey
+        let montant = section.querySelector("span").textContent;
+        lemontantEstDe.textContent = "Faire un don de " + montant;
     });
+});
 
-    buttonsDuree.forEach(function(button) {
-        button.addEventListener("click", function() { // Execute le code lorsque l'ont click sur un boutton
+buttonsDuree.forEach(function(button) {
+    button.addEventListener("click", function() { // Execute le code lorsque l'on clique sur un bouton
+        let duree = button.id;
+        let montantActuel = lemontantEstDe.textContent.split(" ")[4] || "";
+        
+        lemontantEstDe.textContent = "Faire un don de " + montantActuel + " / " + duree;
 
-            let duree = button.id;
-            let montantActuel = lemontantEstDe.textContent.split(" ")[4] || "";
-            
-            // split(' ') : Divise la chaîne de texte en un tableau, en utilisant l'espace comme séparateur.
-            // Exemple : "Faire un don de 10€".split(' ') → ["Faire", "un", "don", "de", "10€"]
-            // [4] : Accède au 5eme élément du tableau (index 4). "Faire un don de 10€", l'élément à l'index 4 est "10€".
-
-            // || '' : Si l'élément à l'index 3 n'existe pas (par exemple, si la chaîne est trop courte), il renvoie une chaîne vide ('') au lieu de undefined, évitant ainsi des erreurs.
-
-            lemontantEstDe.textContent = "Faire un don de " + montantActuel + " / " + duree;
-
-        });
+        Don(montantActuel, duree);
     });
+});
+
+function Don(montant, duree) {
+    alert("Quatre pattes vous remercient pour votre don de " + montant + " / " + duree);
+}
 
 
 // Galerie --> section 3

@@ -5,12 +5,12 @@
     background-color: var(--background_vert);
     width: 100%;
     padding-bottom: 7vw;
+    gap: 5px;
 }
 
 #s5 img {
     max-width: 50px;
     max-height: 50px;
-    padding-left: 2vw;
 }
 
 .vert{
@@ -29,6 +29,7 @@
 
 #s5 li {
     text-align: center;
+    
 }
 
 /* MEDIA QUERIES */
@@ -44,8 +45,8 @@
     }
 
     #s5 img {
-        max-width: 80px;
-        max-height: 80px;
+        max-width: 90px;
+        max-height: 90px;
 }
 
     .size_s5 {
@@ -58,7 +59,7 @@
     }
 
     .padding {
-        padding-bottom: 5vw;
+        padding-bottom: 7vw;
     }
 }
 
