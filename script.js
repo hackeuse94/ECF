@@ -1,3 +1,5 @@
+alert("Js ok");
+
 // Gelerie --> section 34
 
 function galerie2() {
