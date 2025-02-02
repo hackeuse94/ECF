@@ -4,6 +4,7 @@
     align-items: center;
     text-align: center;
     background-image: url(../img/img/hero.png);
+    filter: saturate(70%);
     height: 556px;
     background-size: cover;
     background-position-x: center;
@@ -19,10 +20,12 @@
 @media (max-width: 800px) {
 
     #hero {
-        height: 400px; 
-        width: 753px;
+        background-image: url(../img/img/hero_responsive.png);
+        height: 600px; 
+        width: 800px;
         background-size: cover;
-        background-position: center;
+        background-repeat: no-repeat;
+        background-position: x;
     }
 
     .titre_hero h1 {

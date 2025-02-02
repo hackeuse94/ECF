@@ -11,6 +11,7 @@
     width: 90%; 
     border-radius: 20px;
     margin-bottom: 10px;
+    filter: saturate(70%);
 }
 
 .nom_gros {
@@ -48,8 +49,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    width: 100%;
-    padding-right: 8%;
+    width: 93%;
+    filter: saturate(70%);
 }
 
 .div_image_principal img:focus {
@@ -112,18 +113,16 @@
     .img-miniatures {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 3vw;
     }
 
     .img-miniatures img {
-        width: 90%;
+        width: 96%;
         max-width: 100%;
         height: 130px;
         object-fit: cover;
         object-position: center;
-    }
+        margin-top: -1vw;
+        }
 
     .nom {
         left: -2vw;

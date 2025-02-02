@@ -18,7 +18,7 @@
     color: var(--blanc);
     align-self: start;
     width: 100%;
-    margin-top: 1vw;
+    margin-top: 0.3vw;
 }
 
 .retour-accueil:hover span {
@@ -76,6 +76,7 @@
     display: none; 
 }
 
+
 /* MEDIA QUERIES */
 
 @media (max-width: 800px) {
@@ -119,6 +120,10 @@
     .button_header {
         width: 90vw;
         max-width: 90vw;
+    }
+
+    .retour-accueil span {
+        margin-top: 1vw;
     }
 
 }
