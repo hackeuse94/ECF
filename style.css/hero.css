@@ -21,7 +21,7 @@
 
     #hero {
         background-image: url(../img/img/hero_responsive.png);
-        height: 600px; 
+        height: 600px;
         width: 800px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -35,9 +35,9 @@
     }
 
     .titre_hero span {
-        font-size: var(--font-size_21); 
+        font-size: var(--font-size_21);
         width: 304px;
-        height: auto;    
+        height: auto;
     }
-    
+
 }

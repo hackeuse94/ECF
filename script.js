@@ -64,22 +64,27 @@ toutesReponses.forEach(function(reponse) {
         let hidden = questionReponse.querySelector(".hidden");
         let iconeBon = questionReponse.querySelector(".icone_vrai");
         let iconeMauvais = questionReponse.querySelector(".icone_faux");
-
         let autresReponses = questionReponse.querySelectorAll(".mauvaise_reponse, .bonne_reponse");
+
         autresReponses.forEach(function(proposition) {
             proposition.style.display = "none"; // Masque toutes les autres réponses
         });
 
         // Afficher le bon icone
         if (reponse.classList.contains("bonne_reponse")) {
-            score++; // Augmenter le score
-            hidden.style.display = "block";
-            hidden.style.backgroundColor = "rgba(0, 128, 0, 0.2)";
-            if (iconeBon) iconeBon.style.display = "inline-block"; // Afficher l'icône :bonne réponse
+            score++; // Augmenter le score pour la bonne réponse
+            hidden.style.display = "inline-block";
+            hidden.style.backgroundColor = "rgba(0, 128, 0, 0.2)"; // vert
+        if (iconeBon || iconeMauvais) {
+                iconeBon.style.display = "inline-block"; // Afficher l'icône de la bonne réponse
+                iconeMauvais.style.display = "inline-block"; // Afficher l'icône de la mauvaise réponse 
+            }
         } else {
-            hidden.style.display = "block";
-            hidden.style.backgroundColor = "rgba(255, 0, 0, 0.2)";
-            if (iconeMauvais) iconeMauvais.style.display = "inline-block"; // Afficher l'icône : mauvaise réponse
+            hidden.style.display = "inline-block";
+            hidden.style.backgroundColor = "rgba(255, 0, 0, 0.2)"; // rouge
+            if (iconeMauvais) {
+                
+            }
         }
 
         // Mettre à jour le score

@@ -4,11 +4,11 @@
 }
 
 .div_image_principal {
-    position: relative; 
+    position: relative;
 }
 
 .div_image_principal img {
-    width: 90%; 
+    width: 90%;
     border-radius: 20px;
     margin-bottom: 10px;
     filter: saturate(70%);
@@ -59,7 +59,7 @@
 }
 
 .nom {
-    position: absolute; 
+    position: absolute;
     font-size: var(--font-size_21);
     color: var(--blanc);
     font-weight: bold;
@@ -73,7 +73,7 @@
 @media (max-width: 800px) {
 
     .div_image_principal {
-        position: relative; 
+        position: relative;
     }
 
     .div_image_principal img {
@@ -122,11 +122,11 @@
         object-fit: cover;
         object-position: center;
         margin-top: -1vw;
-        }
+    }
 
     .nom {
         left: -2vw;
         top: 7vw;
     }
-    
+
 }

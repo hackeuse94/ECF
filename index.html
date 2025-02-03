@@ -19,11 +19,11 @@
 
     <header class="header">
         <div class="x">
-        <a href="#" class="retour-accueil">
-            <img src="img/logo_icones/Logo_blanc.svg" alt="Logo de Quatre Pattes">
-            <span>Quatre Pattes</span>
-        </a>
-        <img src="img/logo_icones/icone_x_blanc.webp" alt="icone fermeture menu deroulant" class="cacher">
+            <a href="#" class="retour-accueil">
+                <img src="img/logo_icones/Logo_blanc.svg" alt="Logo de Quatre Pattes">
+                <span>Quatre Pattes</span>
+            </a>
+            <img src="img/logo_icones/icone_x_blanc.webp" alt="icone fermeture menu deroulant" class="cacher">
         </div>
         <nav class="nav">
             <ul class="nav_liens">
@@ -37,7 +37,7 @@
             </ul>
         </nav>
     </header>
-    
+
 
     <!-- HERO -->
 
@@ -61,27 +61,29 @@
                     <span class="dix">10€</span>
                     <p>Permet de nourrir 5 animaux <br class="br">pendant une journée</p>
                 </div>
-        
+
                 <!-- 20 -->
                 <div class="border_grey" tabindex="0" data-amount="20">
                     <span class="vingt">20€</span>
                     <p>Permet d’héberger un animal <br class="br">sauvage pendant une nuit</p>
                 </div>
-        
+
                 <!-- 50 -->
                 <div class="border_grey" tabindex="0" data-amount="50">
                     <span class="cinquante">50€</span>
                     <p>Permet de financer les soins <br class="br">vétérinaires complets pour un <br> animal</p>
                 </div>
-        
+
                 <!-- button -->
                 <div class="button_conteneur">
                     <button class="button_size" id="Une fois" tabindex="0">Une fois</button>
                     <button class="button_size" id="Mensuel" tabindex="0">Mensuel</button>
                     <button class="button_size" id="Annuel" tabindex="0">Annuel</button>
                 </div>
-        
-                <button class="button_header dimension_grand_button" id="Don" tabindex="0"><div id="montant"></div><div id="duree"></div>
+
+                <button class="button_header dimension_grand_button" id="Don" tabindex="0">
+                    <div id="montant"></div>
+                    <div id="duree"></div>
                 </button>
             </div>
         </section>
@@ -119,29 +121,34 @@
             <h3>Histoires de Réussite</h3>
             <div class="contenair_image_principal">
                 <div class="div_image_principal">
-                    <img id="img_1" src="img/img/s3_principal.png" alt="Photo de luna qui mord dans son jouet" loading="lazy">
+                    <img id="img_1" src="img/img/s3_principal.png" alt="Photo de luna qui mord dans son jouet"
+                        loading="lazy">
                     <p class="nom_gros">Luna</p>
-                    <p class="description">Trouvée dans la rue avec une patte cassée, Luna a été soignée et a retrouvé sa joie de vivre. Elle coule maintenant des jours heureux dans sa nouvelle famille.</p>
+                    <p class="description">Trouvée dans la rue avec une patte cassée, Luna a été soignée et a retrouvé
+                        sa joie de vivre. Elle coule maintenant des jours heureux dans sa nouvelle famille.</p>
                     <p class="date">Janvier 2024</p>
                 </div>
             </div>
-        
+
             <div class="img-miniatures">
                 <div class="div_image_principal">
-                    <img src="img/img/s3_principal_miniature.png" alt="Photo miniature de luna" loading="lazy" tabindex="0" onclick="galerie2()">
+                    <img src="img/img/s3_principal_miniature.png" alt="Photo miniature de luna" loading="lazy"
+                        tabindex="0" onclick="galerie2()">
                     <p class="nom">Luna</p>
                 </div>
                 <div class="div_image_principal">
-                    <img src="img/img/s3_chat.png" alt="Photo de Oscar, chat noir et blanc" loading="lazy" tabindex="0" onclick="galerie3()">
+                    <img src="img/img/s3_chat.png" alt="Photo de Oscar, chat noir et blanc" loading="lazy" tabindex="0"
+                        onclick="galerie3()">
                     <p class="nom">Oscar</p>
                 </div>
                 <div class="div_image_principal">
-                    <img src="img/img/s3_bulldog.png" alt="Photo de Max, bulldog français" loading="lazy" tabindex="0" onclick="galerie4()">
+                    <img src="img/img/s3_bulldog.png" alt="Photo de Max, bulldog français" loading="lazy" tabindex="0"
+                        onclick="galerie4()">
                     <p class="nom">Max</p>
                 </div>
             </div>
         </section>
-        
+
 
         <!-- SECTION 4 -->
 
@@ -149,69 +156,87 @@
 
         <section id="s4">
             <h4>Testez Vos Connaissances</h4>
-        
+
             <!-- Première question -->
             <div class="contenaire_questions">
                 <p class="quizz">Les associations gardent la majorité des dons pour leur fonctionnement</p>
                 <div class="question-reponse">
-                    <div class="mauvaise_reponse" id="q1r1">
-                        <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp" alt="icone réponse non validé">
-                        <p>Vrai, les associations utilisent plus de 50% des dons pour leurs frais de fonctionnement</p>
+                    <div class="mauvaise_reponse">
+                        <p>
+                            <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp"
+                                alt="icone réponse non validé">
+                            Vrai, les associations utilisent plus de 50% des dons pour leurs frais de fonctionnement
+                        </p>
                     </div>
-                    <div class="bonne_reponse" id="q1r2">
+                    <div class="bonne_reponse">
                         <p>Faux !</p>
                     </div>
                     <div class="hidden">
-                        <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp" alt="icone réponse validé">
-                        Faux ! Chez Quatre Pattes, 85% des dons sont directement utilisés pour les animaux. Seuls 15% servent aux frais de fonctionnement essentiels.
+                        <p>
+                            <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp"
+                                alt="icone réponse validé">
+                            Faux ! Chez Quatre Pattes, 85% des dons sont directement utilisés pour les animaux. Seuls
+                            15% servent aux frais de fonctionnement essentiels.
+                        </p>
                     </div>
                 </div>
             </div>
-        
+
             <!-- Deuxième question -->
             <div class="contenaire_questions">
                 <p class="quizz">Les refuges ne prennent que les animaux en bonne santé</p>
                 <div class="question-reponse">
-                    <div class="mauvaise_reponse" id="q2r1">
-                            <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp" alt="icone réponse non validé">
+                    <div class="mauvaise_reponse">
+                        <p>
+                            <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp"
+                                alt="icone réponse non validé">
                             Vrai, ils refusent les animaux malades car c'est trop coûteux
+                        </p>
                     </div>
-                    <div class="bonne_reponse" id="q2r2">
+                    <div class="bonne_reponse">
                         <p>Faux !</p>
                     </div>
                     <div class="hidden">
-                        <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp" alt="icone réponse validé">
-                        Faux ! Nous accueillons tous les animaux, quel que soit leur état de santé. Chaque vie compte !
+                        <p>
+                            <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp"
+                                alt="icone réponse validé">
+                            Faux ! Nous accueillons tous les animaux, quel que soit leur état de santé. Chaque vie
+                            compte !
+                        </p>
                     </div>
                 </div>
             </div>
-        
+
             <!-- Troisième question -->
             <div class="contenaire_questions">
                 <p class="quizz">Les associations ont trop de moyens grâce aux dons</p>
                 <div class="question-reponse">
-                    <div class="mauvaise_reponse" id="q3r1">
+                    <div class="mauvaise_reponse">
                         <p>
-                            <img class="icone_faux" src="img/logo_icones/icone_x_rouge.webp" alt="icone réponse non validé">
-                            Vrai, elles reçoivent beaucoup d'argent des donateurs</p>
+                            Vrai, elles reçoivent beaucoup d'argent des donateurs
+                        </p>
                     </div>
-                    <div class="bonne_reponse" id="q3r2">
+                    <div class="bonne_reponse">
                         <p>Faux !</p>
                     </div>
                     <div class="hidden">
-                        <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp" alt="icone réponse validé">
-                        Faux ! Les besoins sont immenses et constants. Chaque don est précieux pour sauver plus d'animaux.
+                        <p>
+                            <img class="icone_vrai" src="img/logo_icones/icone_chevron_vert.webp"
+                                alt="icone réponse validé">
+                            Faux ! Les besoins sont immenses et constants. Chaque don est précieux pour sauver plus
+                            d'animaux.
+                        </p>
                     </div>
                 </div>
             </div>
-        
+
             <!-- Section Score -->
             <div id="scoreSection">
                 <p id="scoreMessage">Votre score : <span id="score">0</span>/3</p>
                 <button id="recommencerQuiz">Recommencer le quiz</button>
             </div>
         </section>
-        
+
 
         <!-- SECTION 5 -->
 

@@ -18,7 +18,7 @@
 :root {
     --font-family: "Inter", sans-serif;
 
-    --header_vert: #057858; 
+    --header_vert: #057858;
     --button_rouge: #db2627;
     --button_gris: #f3f4f6;
     --border_grise: #dbe6e1;
@@ -28,10 +28,10 @@
     --footer: #414955;
 
     --font-size_60: 60px;
-    --font-size_30: 30px; 
+    --font-size_30: 30px;
     --font-size_28: 28px;
-    --font-size_25: 25px; 
-    --font-size_22: 22px;  
+    --font-size_25: 25px;
+    --font-size_22: 22px;
     --font-size_21: 21px;
     --font-size_17: 17px;
     --font-size_18: 18px;
@@ -56,7 +56,7 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     font-size: var(--font-size_30);
     font-weight: 800;
     text-align: center;
@@ -64,10 +64,10 @@ h6{
 }
 
 a {
-    text-decoration: none;  
+    text-decoration: none;
 }
 
-a:hover {  
+a:hover {
     cursor: pointer;
 }
 

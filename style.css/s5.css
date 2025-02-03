@@ -13,7 +13,7 @@
     max-height: 50px;
 }
 
-.vert{
+.vert {
     background-color: var(--background_vert);
     padding-right: 2vw;
 }
@@ -23,13 +23,13 @@
     font-weight: bold;
 }
 
-.size_text_s5{
+.size_text_s5 {
     font-size: var(--font-size_17);
 }
 
 #s5 li {
     text-align: center;
-    
+
 }
 
 /* MEDIA QUERIES */
@@ -47,19 +47,18 @@
     #s5 img {
         max-width: 90px;
         max-height: 90px;
-}
+    }
 
     .size_s5 {
-        font-size: var(--font-size_25); 
+        font-size: var(--font-size_25);
         font-weight: 800;
     }
 
     #s5 li {
-       font-size: var(--font-size_17);
+        font-size: var(--font-size_17);
     }
 
     .padding {
         padding-bottom: 7vw;
     }
 }
-

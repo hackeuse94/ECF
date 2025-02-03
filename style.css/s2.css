@@ -1,6 +1,6 @@
 #s2 {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     padding: 7vw;
     background-color: var(--background_vert);
@@ -9,9 +9,9 @@
 
 .div_principal_s2 {
     display: flex;
-    align-items: center;  
+    align-items: center;
     height: 465px;
-    width: 100%;    
+    width: 100%;
     gap: 4vw;
     background-color: var(--blanc);
     border-radius: 20px;
@@ -19,11 +19,11 @@
 }
 
 .div_principal_s2 img {
-    width: 50%; 
+    width: 50%;
     height: 100%;
-    border-top-left-radius: 21px; 
-    border-bottom-left-radius: 21px; 
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); 
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .left {
@@ -44,34 +44,34 @@
 @media (max-width: 800px) {
 
     #s2 .div_principal_s2 {
-        display: block; 
-        width: 100%; 
-        height: 100%; 
+        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     #s2 .div_principal_s2 img {
-        width: 100%; 
-        height: 100%; 
+        width: 100%;
+        height: 100%;
         object-fit: cover;
-        border-top-left-radius: 20px; 
-        border-top-right-radius: 20px; 
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
     }
 
     #s2 .div_principal_s2 div {
-        width: 100%; 
+        width: 100%;
         padding: 5vw;
         margin-left: 1vw;
     }
 
     #s2 .div_principal_s2 h3 {
-        font-size: var(--font-size_21); 
+        font-size: var(--font-size_21);
         padding-bottom: 2vw;
     }
 
     #s2 .div_principal_s2 p {
-        font-size: var(--font-size_17); 
-        line-height: 1.6; 
+        font-size: var(--font-size_17);
+        line-height: 1.6;
     }
-    
+
 }
